@@ -9,7 +9,6 @@ Created on Fri Dec 13 10:29:17 2019
 import matplotlib.pyplot as plt
 import numpy as np
 x = [10,11,12,13,14,15,16,17,18,19,20]
-#x2 = [110,111,220,222,333,444,555,440,220,660,440]
 y = [1,1,1,1,1,1,0,0,0,0,0]
 
 plt.scatter(x,y)
