@@ -36,7 +36,7 @@ for i in range(0,100000):
         dm += x[j] * (y_cap - y[j])
         dc += (y_cap - y[j])
     print(celoss)
-    le.append(celoss/len(y))
+    le.append(-celoss/len(y))
     m = m - alpha * dm
     c = c - alpha * dc
 
